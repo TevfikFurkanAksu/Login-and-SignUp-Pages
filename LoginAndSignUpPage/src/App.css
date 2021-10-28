@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+}
+
+.nav-links{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+  text-align: center;
+  margin: 1rem;
+}
+a{
+  list-style: none;
+  color: aliceblue;
+}
+a:link{
+  list-style: #fff;
+}
+
+.container{
+  width: 50%;
+  height: 100%;
+}
+.forgetpassword{
+  color: tomato;
+}
+
+.forgetpassword:hover{
+  color: tomato;
+}
+.forgetpassword-div{
+  margin-top: 1rem
+}
+
+input[type="tel"],
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  width: 80%;
+  height: 4rem;
+  border-radius: 20px;
+  background-color: rgb(225, 240, 247);
+}
+.form-group ,.form-check{
+  margin-top: 1rem;
+}
+.btn-submit{
+  margin-top: 1rem;
+  width: 55%;
+  height: 3rem;
+  border-radius: 20px;
+  background-color: tomato;
+  color: #fff;
+}
+.btn-submit:disabled{
+  width: 55%;
+  height: 3rem;
+  border-radius: 20px;
+  background-color: grey;
+  color: #fff;
+}
+
+input{
+  margin-top: 1.5rem;
+}
+
+h3 {
+  margin: 5px;
+  padding: 15px 15px 0px 15px;
+  font-weight: 300;
+}
+
+.errorMsg {
+  padding: 5px;
+  margin: 0px;
+  font-size: 11px;
+  color: red;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
